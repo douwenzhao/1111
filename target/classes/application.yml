@@ -1,0 +1,22 @@
+server:
+  #port: 8088
+  servlet:
+    context-path: /demo02
+
+spring:
+  redis:
+    host: 192.168.188.129
+    port: 6379
+
+  profiles:
+    active: prod
+java0824:
+  stuname1: tom
+  stuname2: tim
+  stuname3: jerry
+com:
+  offcn:
+    year: 20
+    address: 五方桥
+    code: 10098
+
